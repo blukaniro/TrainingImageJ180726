@@ -33,7 +33,7 @@ Length value is adjusted how pixels connect
 # 2. Using analyse particle  
 ## 2-1. Basic
 1. Change color image to grayscale: Image > Type > 8bit 
-1. Thresholding: Image>Adjust>Threshold  
+1. Thresholding: Image > Adjust > Threshold  
 The threshold value are manually or autmatically selected.  
 1. Apply: Click "Apply"  
 1. Analyze Particle: Analyze > Analyze Particle  
@@ -54,7 +54,7 @@ The threshold value are manually or autmatically selected.
     e.g.leaf senescence  
 
 ## 2-3. Measure root length  
-1. Thresholding:  Image>Adjust>Threshold  
+1. Thresholding:  Image > Adjust > Threshold  
 1. Remove pixels from the edges: Process > Binary > Erode  
 1. Add pixels to the edges: Process > Binary > Dilate  
 1. Remove pixels from the edges until single-pixel wide: Process > Binary > Skeletonize  
